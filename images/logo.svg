@@ -1,0 +1,26 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:grid x="50" y="50" width="100" height="100"></bx:grid>
+  </defs>
+  <ellipse style="stroke: #005500; stroke-width: 11px; fill: #ffffff;" cx="250" cy="250" rx="210" ry="210">
+    <title>Base Outline</title>
+  </ellipse>
+  <ellipse style="fill-rule: nonzero; paint-order: fill; stroke-width: 10px; fill: #005500; stroke: #ffffff;" cx="249.986" rx="200" ry="200" cy="250" bx:origin="0.5 0.5">
+    <title>Base</title>
+  </ellipse>
+  <path style="stroke-width: 10px; fill: #005500; stroke: #ffffff;" d="M 163.856 242 L 150.986 114 L 249.986 165.791 L 348.986 114 L 336.116 242 L 163.856 242 Z" bx:origin="0.5 1.0625">
+    <title>Outer M</title>
+  </path>
+  <path style="stroke-width: 10px; fill: #005500; stroke: #ffffff;" d="M 185.389 242 L 175.736 153.385 L 249.986 189.24 L 324.236 153.385 L 314.584 242 L 185.389 242 Z" bx:origin="0.5 1.090278">
+    <title>Inner M</title>
+  </path>
+  <ellipse style="stroke-width: 10px; stroke: #005500; fill: #005500;" cx="249.986" cy="300" rx="100" ry="100" bx:origin="0.5 0.25">
+    <title>Face Outline</title>
+  </ellipse>
+  <ellipse style="stroke-width: 10px; fill: #005500; stroke: #ffffff;" cx="249.986" cy="300" rx="80" ry="80" bx:origin="0.5 0.1875">
+    <title>Inner Face</title>
+  </ellipse>
+  <ellipse style="stroke-width: 10px; fill: #005500; stroke: #ffffff;" cx="249.986" cy="300" rx="60" ry="60" bx:origin="0.5 0.1875">
+    <title>Face Fill</title>
+  </ellipse>
+</svg>

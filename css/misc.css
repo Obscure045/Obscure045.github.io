@@ -1,0 +1,79 @@
+.browsehappy {
+    /* POSITION */
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    /* MARGs & PADs */
+    padding: 1em;
+    /* BACKGROUND */
+    background: red;
+    /* FONT */
+    font-size: larger;
+    /* MISC */
+    z-index: 100;
+}
+
+/* FIREFOX SCROLLBAR */
+* {
+    scrollbar-width: thin;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* CHROME SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+    width: 0em;
+}
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+    background-color: var(--quaternary-color-80);
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+    background: var(--quaternary-color-40);
+    border: 0.15em solid var(--secondary-color);
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+    background: var(--quaternary-color-20);
+} */
+
+@media (max-width: 768px) {
+    #desktop {
+        display: none;
+    }
+
+    main {
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    #desktop {
+        display: flex;
+    }
+
+    #mobilenav {
+        display: none;
+    }
+
+    #about p {
+        /* FONT */
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 320px) {
+    nav#bottom .social > p {
+        display: none;
+    }
+
+    #members > ul > li {
+        box-shadow: none;
+    }
+}

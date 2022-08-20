@@ -1,0 +1,222 @@
+/* IMPORTING COMFORTAA */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700;900&display=swap');
+/* IMPORTING NUNITO */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap');
+
+:root {
+    --primary-color: hsl(120, 100%, 17%);
+    --primary-color-hover: hsl(120, 100%, 30%);
+    --primary-lightest-color: hsl(120, 100%, 90%);
+    --secondary-color: hsl(0, 0%, 100%);
+    --secondary-color-hover: hsl(0, 0%, 80%);
+    --tertiary-color: hsl(0, 0%, 0%);
+    --selection-color: hsl(240, 100%, 50%);
+    --selection-color-shadow: hsl(240, 100%, 75%);
+}
+
+::selection {
+    color: var(--selection-color);
+    text-shadow: 0px 2px 2px var(--selection-color-shadow);
+}
+
+@keyframes fadeInTop {
+    from {
+        opacity: 0;
+        transform: translateY(-5rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+* {
+    box-sizing: border-box;
+    /* MARGs & PADs */
+    margin: 0;
+    padding: 0;
+    /* MISC */
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+i {
+    transition: all 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* MISC */
+    font-family: 'Comfortaa', 'Nunito', cursive, sans-serif;
+}
+
+img {
+    /* SIZE */
+    min-width: 1em;
+    min-height: 1em;
+    width: 4em;
+    height: 4em;
+    max-width: 4em;
+    max-height: 4em;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    /* COLOR */
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    /* COLOR */
+    color: var(--secondary-color-hover);
+}
+
+button {
+    /* COLOR */
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    /* BORDER */
+    border: none;
+    /* MARGs & PADs */
+    padding: 0.5em;
+    /* FONT */
+    font-size: 1em;
+    font-weight: bold;
+}
+
+button:hover, button:focus {
+    /* COLOR */
+    background-color: var(--primary-color-hover);
+    color: var(--secondary-color-hover);
+}
+
+ul {
+    width: 68%;
+    /* DISPLAY */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* MISC */
+    list-style: none;
+}
+
+li {
+    min-width: none;
+    /* COLOR */
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    /* BORDER */
+    border: 0.15em solid var(--secondary-color);
+    /* FONT */
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    /* MARGs & PADs */
+    padding: 1em 2em;
+    margin: 1em 0;
+    /* MISC */
+    box-shadow: 0.25em 0.25em 0.5em rgba(0, 0, 0, 0.5);
+}
+
+li:hover, li:focus {
+    /* COLOR */
+    background-color: var(--primary-color-hover);
+}
+
+li a:hover {
+    color: var(--secondary-color);
+}
+
+h3 {
+    /* DISPLAY */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    /* FONT */
+    font-family: 'Nunito', monospace;
+    color: var(--tertiary-color);
+    font-size: clamp(1.5em, 10vw, 3em);
+    font-weight: bold;
+    /* MARGs & PADs */
+    padding: 0em;
+}
+
+header > nav, footer > nav {
+    /* DISPLAY */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* COLORs */
+    background-color: var(--primary-color);
+}
+
+header {
+    /* POSITION */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* MISC */
+    z-index: 1;
+}
+
+main {
+    min-height: 100vh;
+}
+
+section {
+    /* DISPLAY */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* SIZE */
+    width: 100%;
+    min-height: 50vw;
+    height: fit-content;
+}
+
+.animate {
+    animation: fadeInTop 2s forwards;
+}
+
+.logo {
+    /* DISPLAY */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* MARGs & PADs */
+    margin: 1em;
+}
+
+.logo > p {
+    /* FONT */
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo#header-logo {
+    /* MISC */
+    flex-direction: row;
+}
+
+.logo#footer-logo {
+    /* MISC */
+    flex-direction: row-reverse;
+}
+
+[data-disabled] {
+    pointer-events: none;
+    color: rgba(255, 0, 0, 0.25) !important;
+}

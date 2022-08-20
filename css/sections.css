@@ -1,0 +1,125 @@
+#about {
+    /* SIZE */
+    min-height: 100vh;
+    height: fit-content;
+    /* MARGs & PADs */
+    padding: 3em;
+    /* MISC */
+    justify-content: center;
+}
+
+#about h3 {
+    padding: 0.5em;
+}
+
+#about p {
+    /* FONT */
+    line-height: 2em;
+    text-align: justify;
+}
+
+#members {
+    min-height: 50vw;
+    padding: 2em;
+    padding-top: 5em;
+}
+
+#members img {
+    max-width: none;
+    max-height: none;
+    width: 10em;
+    height: 10em;
+}
+
+#members > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1em;
+    width: inherit;
+    padding: 1em;
+}
+
+#members > ul > li {
+    padding: 0 1em;
+    margin: 0;
+    overflow: visible;
+}
+
+#members > ul > li > .card {
+    /* DISPLAY */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* MARGs & PADs */
+    padding: 1em;
+    /* MISC */
+    height: 400px;
+    line-height: 2em;
+}
+
+#specialization {
+    min-height: 50vw;
+    /* MARGs & PADs */
+    padding: 2em;
+    padding-top: 5em;
+    margin: 0.2em;
+    /* MISC */
+    height: auto;
+    background-color: #eee;
+}
+
+#specialization i {
+    font-size: 3em;
+    padding-bottom: 0.3em;
+    border-bottom: #333 2px solid;
+}
+
+#specialization i.fa-html5 {
+    color: #e34f26;
+}
+
+
+#specialization img {
+    padding-bottom: 0.3em;
+    border-bottom: #333 2px solid;
+}
+
+#specialization > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1em;
+    width: inherit;
+    padding: 1em;
+}
+
+#specialization > ul > li > a {
+    color: black;
+    font-weight: bold;
+}
+
+#specialization > ul > li {
+    /* DISPLAY */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* SIZE */
+    min-width: 8em;
+    min-height: 8em;
+    /* FONT */
+    font-size: clamp(1.5em, 3vw, 2em);
+    /* BACKGROUND */
+    background-color: #fff;
+    color: black;
+    /* MARGs & PADs */
+    padding: 0%;
+    margin: 0.5em;
+    /* MISC */
+    box-shadow: 0.05em 0.05em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+#specialization > ul > li:hover {
+    /* SIZE */
+    transform: scale(1.1);
+}

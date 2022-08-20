@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Obscure045</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/preload.css">
+    <link rel="stylesheet" href="css/base.css">
+    <!-- NAVBARS -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <!-- MISC -->
+    <link rel="stylesheet" href="css/misc.css">
+    <!-- SECTIONS -->
+    <link rel="stylesheet" href="css/sections.css">
+    <!-- IMPORTING MY FONT AWESOME KIT -->
+    <script src="https://kit.fontawesome.com/397452574d.js" crossorigin="anonymous"></script>
+</head>
+
+<body onload="onLoad()">
+    <div id="preload">
+        <img src="images/logo.svg" alt="Preloading Logo">
+    </div>
+    <!-- [if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif] -->
+    <header>
+        <nav id="desktop" class="animatable">
+            <div class="logo" id="header-logo">
+                <img src="images/logo.svg" alt="Obscure045 Logo">
+                <p>Obscure045</p>
+            </div>
+            <ul>
+                <li>
+                    <a href="#about">Home</a>
+                </li>
+                <li>
+                    <a href="#specialization">Specializations</a>
+                </li>
+                <li>
+                    <a href="#members">Members</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="mobilenav">
+            <ul>
+                <li>
+                    <a href="#about">Home</a>
+                </li>
+                <li>
+                    <a href="#specialization">Specializations</a>
+                </li>
+                <li>
+                    <a href="#members">Members</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h3 class="animatable">We are the Obscure045.</h3>
+            <p class="animatable">We deliver high quality portable assets for the Unity game engine, including tutorials on web development.</p>
+        </section>
+        <section id="specialization">
+            <h3>Specializations</h3>
+            <ul>
+                <li>
+                    <i class="fa-brands fa-html5"></i>
+                    <a href="#">WEB</a>
+                </li>
+                <li>
+                    <i class="fa-brands fa-unity"></i>
+                    <a href="#">GAME</a>
+                </li>
+                <li>
+                    <!-- <i class="fa-brands fa-python"></i> -->
+                    <img src="images/python.svg" alt="Python Logo">
+                    <a href="#">APP</a>
+                </li>
+            </ul>
+        </section>
+        <section id="members">
+            <h3>Members</h3>
+            <ul>
+                <li>
+                    <a class="card" href="members/ahmad.html" target="_blank">
+                        <img src="images/logo.svg" alt="Muhammad Ahmad">
+                        <p>Muhammad Ahmad</p>
+                        <p>Full Stack Developer</p>
+                        <p>Experienced in Front End Development</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="card" href="members/mustafa.html" target="_blank">
+                        <img src="images/logo.svg" alt="Muhammad Mustafa">
+                        <p>Muhammad Mustafa</p>
+                        <p>Programmer</p>
+                        <p>Experienced in Back End Development & App Development</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="card" href="members/awais.html" target="_blank">
+                        <img src="images/logo.svg" alt="Muhammad Awais">
+                        <p>Muhammad Awais</p>
+                        <p>Graphic Designer</p>
+                        <p>Specialized in Logo Designing</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="card" href="members/mujtaba.html" target="_blank">
+                        <img src="images/logo.svg" alt="Muhammad Mujtaba">
+                        <p>Muhammad Mujtaba</p>
+                        <p>Game Developer</p>
+                        <p>AND</p>
+                        <p>Web Developer</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="card" href="members/murtaza.html" target="_blank">
+                        <img src="images/logo.svg" alt="Muhammad Murtaza">
+                        <p>Muhammad Murtaza</p>
+                        <p>Game Developer</p>
+                        <p>AND</p>
+                        <p>Web Developer</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <nav id="bottom">
+            <div class="emails">
+                <p>Contact At</p>
+                <a target="_blank" href="mailto:mmz2412150@gmail.com">mmz2412150@gmail.com</a>
+            </div>
+            <div class="social">
+                <p>Social</p>
+                <p>-</p>
+                <a target="_blank" href="https://github.com/0bscureo45/">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a target="_blank" href="#">
+                    <i class="fa-brands fa-unity"></i>
+                </a>
+                <a target="_blank" href="https://www.youtube.com/channel/UC-eGkQdXcVR5WnhrfHYagGA">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+            <div class="logo" id="footer-logo">
+                <img src="images/logo.svg" alt="Obscure045 Logo">
+                <p>Obscure045</p>
+            </div>
+        </nav>
+    </footer>
+    <script>
+        var preloader = document.getElementById("preload");
+        var animatables = document.getElementsByClassName("animatable");
+        for (let index = 0; index < animatables.length; index++) {
+            const animatable = animatables[index];
+            animatable.style.opacity = 0;
+        }
+        function onLoad() {
+            preloader.style.opacity = 0;
+            preloader.style.zIndex = -1;
+            console.log("Successfully loaded content");
+            for (let index = 0; index < animatables.length; index++) {
+                const animatable = animatables[index];
+                animatable.classList.add("animate");
+            }
+        }
+    </script>
+    <script src="js/navbar.js"></script>
+</body>
+
+</html>
