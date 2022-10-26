@@ -30,6 +30,21 @@
     }
 }
 
+@keyframes pulse {
+    0% {
+        opacity: 0.75;
+        color: var(--primary-color);
+    }
+    50% {
+        opacity: 1;
+        color: black;
+    }
+    100% {
+        opacity: 0.75;
+        color: var(--primary-color);
+    }
+}
+
 * {
     box-sizing: border-box;
     /* MARGs & PADs */
