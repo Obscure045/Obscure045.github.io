@@ -1,26 +1,16 @@
-<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
-  <defs>
-    <bx:grid x="50" y="50" width="100" height="100"></bx:grid>
-  </defs>
-  <ellipse style="stroke: #005500; stroke-width: 11px; fill: #ffffff;" cx="250" cy="250" rx="210" ry="210">
-    <title>Base Outline</title>
-  </ellipse>
-  <ellipse style="fill-rule: nonzero; paint-order: fill; stroke-width: 10px; fill: #005500; stroke: #ffffff;" cx="249.986" rx="200" ry="200" cy="250" bx:origin="0.5 0.5">
-    <title>Base</title>
-  </ellipse>
-  <path style="stroke-width: 10px; fill: #005500; stroke: #ffffff;" d="M 163.856 242 L 150.986 114 L 249.986 165.791 L 348.986 114 L 336.116 242 L 163.856 242 Z" bx:origin="0.5 1.0625">
-    <title>Outer M</title>
-  </path>
-  <path style="stroke-width: 10px; fill: #005500; stroke: #ffffff;" d="M 185.389 242 L 175.736 153.385 L 249.986 189.24 L 324.236 153.385 L 314.584 242 L 185.389 242 Z" bx:origin="0.5 1.090278">
-    <title>Inner M</title>
-  </path>
-  <ellipse style="stroke-width: 10px; stroke: #005500; fill: #005500;" cx="249.986" cy="300" rx="100" ry="100" bx:origin="0.5 0.25">
-    <title>Face Outline</title>
-  </ellipse>
-  <ellipse style="stroke-width: 10px; fill: #005500; stroke: #ffffff;" cx="249.986" cy="300" rx="80" ry="80" bx:origin="0.5 0.1875">
-    <title>Inner Face</title>
-  </ellipse>
-  <ellipse style="stroke-width: 10px; fill: #005500; stroke: #ffffff;" cx="249.986" cy="300" rx="60" ry="60" bx:origin="0.5 0.1875">
-    <title>Face Fill</title>
-  </ellipse>
+<svg width="500.00000000000006" height="500.00000000000006" xmlns="http://www.w3.org/2000/svg">
+ <title>Obscure045</title>
+
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke="#005500" fill="#ffffff" cx="250" cy="250" id="svg_1" rx="200" ry="200" stroke-width="10"/>
+  <path stroke="#005500" id="svg_3" d="m250,430c-99.44751,0 -180,-80.55249 -180,-180c0,-99.44751 80.55249,-180 180,-180c99.44751,0 180,80.55249 180,180c0,99.44751 -80.55249,180 -180,180z" opacity="undefined" stroke-width="10" fill="#005500"/>
+  <g stroke="null" id="svg_10">
+   <path transform="rotate(90 250 229.322)" stroke="#ffffff" fill="#005500" stroke-width="10" d="m139.85986,151.00001l165.21009,0l55.07012,78.32207l-55.07012,78.32242l-165.21009,0l55.07011,-78.32242l-55.07011,-78.32207z" id="svg_8"/>
+   <path transform="rotate(90 250 250)" stroke="#ffffff" fill="#005500" stroke-width="10" d="m157.69219,190.55901l138.46165,0l46.15396,59.44086l-46.15396,59.44112l-138.46165,0l46.15395,-59.44112l-46.15395,-59.44086z" id="svg_9"/>
+  </g>
+  <ellipse stroke="#005500" fill="#ffffff" stroke-width="10" cx="250" cy="310" id="svg_7" rx="90" ry="90"/>
+  <ellipse stroke="#ffffff" fill="#005500" stroke-width="10" cx="250" cy="310" id="svg_4" rx="80" ry="80"/>
+  <ellipse stroke="#ffffff" fill="#005500" stroke-width="10" cx="250" cy="310" id="svg_5" rx="60" ry="60"/>
+ </g>
 </svg>
